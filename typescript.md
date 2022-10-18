@@ -19,7 +19,7 @@ TypeScript implements an ECMAScript 2015(ES6) style module-loading systems, and 
 ### How typescript module system resolves module path
 📫 link: [Module Resolution](https://www.typescriptlang.org/docs/handbook/module-resolution.html)<br/>
 
-There are two types of paths when `import {SomeClass} from "some_path_is_put_here"`: Relative path and Non-relative path. When resolving there two kinds of paths, two strategies are used, Classic(for backwards compatibility) and Node(recommended). These two are similar. Very detailed examples are showed in above article. [baseUrl](https://www.typescriptlang.org/tsconfig#baseUrl) and [paths](https://www.typescriptlang.org/tsconfig#paths) can be configured to impact non-relative path resolving. Note that Path mapping with path would break the non-relative resolving rule. Examples in [Path-mapping](https://www.typescriptlang.org/docs/handbook/module-resolution.html#path-mapping) shows this rule. 
+There are two types of paths when `import {SomeClass} from "some_path_is_put_here"`: Relative path and Non-relative path. When resolving there two kinds of paths, two strategies are used, Classic(for backwards compatibility) and Node(recommended). These two are similar. Very detailed examples are showed in above article. [baseUrl](https://www.typescriptlang.org/tsconfig#baseUrl) and [paths](https://www.typescriptlang.org/tsconfig#paths) can be configured to impact non-relative path resolving. Note once path is configured to imply path mapping, non-relative resolving rule will be breaked. Examples in [Path-mapping](https://www.typescriptlang.org/docs/handbook/module-resolution.html#path-mapping) shows this.
 
 
 
