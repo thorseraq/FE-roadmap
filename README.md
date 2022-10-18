@@ -1,1 +1,1 @@
-# FE-roadmap
+### [typescript notes](typescript.md)
