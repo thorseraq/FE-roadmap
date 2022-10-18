@@ -1,10 +1,10 @@
 This repository records good articles I have read, with a few thought.
 
-- [JavaScript articles](## JavaScript)
+- [JavaScript articles](#JavaScript)
 
-- [TypeScript articles](## TypeScript)
+- [TypeScript articles](#TypeScript)
 
-## JavaScript
+# JavaScript
 ### Events in js
 
 📫 link: [Introduction to events](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events#a_series_of_fortunate_events)
@@ -39,7 +39,7 @@ Web storage store key-value pairs, where key and value are both strings. Indexed
 
 📫 link: [Exploring ES6](https://exploringjs.com/es6/)
 
-## TypeScript
+# TypeScript
 
 ### Indicate a directory as a TypeScript project.
 📫 link: [What is a tsconfig.json](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html)<br/>
