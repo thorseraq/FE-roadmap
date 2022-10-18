@@ -1,3 +1,11 @@
+#### Events in js
+
+📫 link: [Introduction to events](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events#a_series_of_fortunate_events)
+
+Event bubbling and capture is worth reading. 
+
+[Event](https://developer.mozilla.org/en-US/docs/Web/API/Event) interface represents an event which takes place in the DOM. There are [a list of interfaces](https://developer.mozilla.org/en-US/docs/Web/API/Event#interfaces_based_on_event) which are based on the main Event interface. Each of those interface may support different event. To check, Reference document.
+
 #### Asynchronous JavaScript
 
 📫 link: [Asynchronous JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous)</br>
