@@ -1,9 +1,9 @@
-#### Indicate a directory as a TypeScript project.
+### Indicate a directory as a TypeScript project.
 📫 link: [What is a tsconfig.json](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html)<br/>
 
 A tsconfig.json file or xxx.json in the current directory or parent directory can be recognized by TypeScript cli - [**tsc**](https://www.typescriptlang.org/docs/handbook/2/basic-types.html#tsc-the-typescript-compiler). 
 
-#### How TypeScirpt project is structured using import/export: 
+### How TypeScirpt project is structured using import/export: 
 📫 link: [Modules](https://www.typescriptlang.org/docs/handbook/modules.html)<br/>
 TypeScript implements an ECMAScript 2015(ES6) style module-loading systems, and is capable of compiling the project to various module-loading system, such as Node.js (CommonJS), require.js (AMD), UMD, SystemJS or ECMAScript 2015 native modules (ES6) . This can be configured by [module](https://www.typescriptlang.org/tsconfig#module) in the tsconfig.json file. Therefore, in TypeScript project there is no need worrying about the target platform where compiled javascript files are running, as different platforms may require different module system.
 
@@ -23,5 +23,5 @@ There are two types of paths when `import {SomeClass} from "some_path_is_put_her
 
 
 
-#### A test framework testing for modern web apps.
+### A test framework testing for modern web apps.
 📫 link: [Playwright](https://playwright.dev/)

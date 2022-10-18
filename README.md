@@ -1,5 +1,5 @@
 #### This repository is tended to record good articles I have read, with a few thought.
 
-#### [JavaScript](javascript.md)
+### [JavaScript articles](javascript.md)
 
-#### [TypeScript](typescript.md)
+### [TypeScript articles](typescript.md)
