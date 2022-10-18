@@ -2,4 +2,4 @@
 
 #### [TypeScript](typescript.md)
 
-#### [TypeScript](javascript.md)
+#### [JavaScript](javascript.md)
