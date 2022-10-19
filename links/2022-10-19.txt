@@ -14,8 +14,7 @@ Playwright Trace Viewer
 https://stackoverflow.com/questions/37502809/what-are-the-spec-ts-files-generated-by-angular-cli-for 
 https://pnpm.io/cli/update 
 https://pnpm.io/workspaces 
-Hem 在 Twitter: "🟢Node.js Tip Why store separate copies of packages if you can have a `single` referencable one? That's the idea behind PNPM which makes it a performant, space-efficient, and faster alternative to NPM/Yarn. Trust me, your hard disk wil 
-https://www.geeksforgeeks.org/difference-between-hard-link-and-soft-link/ 
+https://www.geeksforgeeks.org/difference-between-hard-link-and-soft-link/
 https://docs.npmjs.com/about-packages-and-modules 
 https://docs.npmjs.com/about-scopes 
 Downloading and installing packages locally | npm Docs 
