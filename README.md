@@ -1,8 +1,10 @@
-This repository records good articles I have read, with a few thought.
+This repository records good articles I have read, with a few thought. Unorganized links are recorded at [Web pages I have read](./links)
 
 - [JavaScript articles](#JavaScript)
 
 - [TypeScript articles](#TypeScript)
+
+- [npm](#npm)
 
 # JavaScript
 ### Events in js
@@ -68,3 +70,39 @@ There are two types of paths when `import {SomeClass} from "some_path_is_put_her
 
 ### A test framework testing for modern web apps.
 📫 link: [Playwright](https://playwright.dev/)
+
+# npm
+
+### Manage packages using npm
+
+📫 link: [Using npm packages in your projects](https://docs.npmjs.com/using-npm-packages-in-your-projects)
+
+install lodash locally, package.json, package-lock.json file is generated automatically. **But how is non-relative path resolved?**
+
+Reproduce instructions:
+```bash
+mkdir demo && cd demo
+npm install loadsh
+touch hello.js
+# copy the following content to hello.js
+```
+
+file `hello.js`, Can't run with `node hello.js`. Compiling hello.ts with tsc generates the same style.
+```javascript
+var _ = require('loadsh');
+
+var array = [1];
+var other = _.concat(array, 2, [3], [[4]]);
+
+console.log(other);
+```
+
+file `hello.js`, run with `node hello.js` successfully
+```javascript
+var _ = require('./node_modules/loadsh');
+
+var array = [1];
+var other = _.concat(array, 2, [3], [[4]]);
+
+console.log(other);
+```
