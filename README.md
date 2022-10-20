@@ -1,5 +1,7 @@
 This repository records good articles I have read, with a few thought. Unorganized links are recorded at [Web pages I have read](./links)
 
+- [About This page](#About-This-page)
+
 - [JavaScript](#JavaScript)
 
 - [TypeScript](#TypeScript)
@@ -8,7 +10,20 @@ This repository records good articles I have read, with a few thought. Unorganiz
 
 - [pnpm](#pnpm)
 
-- [About This page](#About-This-page)
+# About This page
+
+## Emojis and Agreement of their usage
+
+⁉: Not sure
+📫: Link
+🔑： Example
+
+## How do I batch add "📫 link: " symbols:
+
+1. Search with regex `^\[.*\]`, to find all lines start with a [xxx].</br>
+2. Select all occurrences. In idea IDE and windows, the shortcut is `ctrl+shift+alt+j`</br>
+3. Enter `Home` to move cursor to the line start.</br>
+4. Paste "📫 link: ".
 
 # JavaScript
 ### Events in js
@@ -56,7 +71,7 @@ A tsconfig.json file or xxx.json in the current directory or parent directory ca
 📫 link: [Modules](https://www.typescriptlang.org/docs/handbook/modules.html)<br/>
 TypeScript implements an ECMAScript 2015(ES6) style module-loading systems, and is capable of compiling the project to various module-loading system, such as Node.js (CommonJS), require.js (AMD), UMD, SystemJS or ECMAScript 2015 native modules (ES6) . This can be configured by [module](https://www.typescriptlang.org/tsconfig#module) in the tsconfig.json file. Therefore, in TypeScript project there is no need worrying about the target platform where compiled javascript files are running, as different platforms may require different module system.
 
-⚡ example: cnofiguring the target module-loading system
+🔑 example: cnofiguring the target module-loading system
 ```json
 {
   "compilerOptions": {
@@ -99,7 +114,7 @@ Run all tests, a single test file, a set files, etc. Debug and show reports.
 
 📫 link: [Using npm packages in your projects](https://docs.npmjs.com/using-npm-packages-in-your-projects)
 
-install lodash locally, package.json, package-lock.json file is generated automatically. **But how is non-relative path resolved?**
+install lodash locally, package.json, package-lock.json file is generated automatically. ⁉️**But how is non-relative path resolved?**
 
 Reproduce instructions:
 ```bash
@@ -157,13 +172,4 @@ What is npm tag: [How to use: npm tags](https://dev.to/andywer/how-to-use-npm-ta
 
 📫 link: [npm-install](https://pnpm.io/motivation)
 
-I haven't seen other difference between npm and pnpm, yet, and will take pnpm as npm by far.
-
-# About This page
-
-## How do I batch add "📫 link: " symbols: 
-
-1. Search with regex `^\[.*\]`, to find all lines start with a [xxx].</br>
-2. Select all occurrences. In idea IDE and windows, the shortcut is `ctrl+shift+alt+j`</br>
-3. Enter `Home` to move cursor to the line start.</br>
-4. Paste "📫 link: ".
+I haven't seen other difference between npm and pnpm, yet, and will take pnpm as npm by far. ⁉️
