@@ -14,9 +14,9 @@ This repository records good articles I have read, with a few thought. Unorganiz
 
 ## Emojis and Agreement of their usage
 
-⁉: Not sure
-📫: Link
-🔑： Example
+⁉: Not sure. Just search this emoji to see what I'm not sure of.</br>
+📫: Link</br>
+🔑： Example</br>
 
 ## How do I batch add "📫 link: " symbols:
 
