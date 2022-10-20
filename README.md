@@ -163,7 +163,7 @@ I haven't seen other difference between npm and pnpm, yet, and will take pnpm as
 
 ## How do I batch add "📫 link: " symbols: 
 
-1. Search with `^\[.*\]`, to find all lines start with a [xxx].</br>
-2. Select all occurrences</br>
+1. Search with regex `^\[.*\]`, to find all lines start with a [xxx].</br>
+2. Select all occurrences. In idea IDE and windows, the shortcut is `ctrl+shift+alt+j`</br>
 3. Enter `Home` to move cursor to the line start.</br>
 4. Paste "📫 link: ".
