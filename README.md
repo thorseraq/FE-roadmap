@@ -6,6 +6,8 @@ This repository records good articles I have read, with a few thought. Unorganiz
 
 - [npm](#npm)
 
+- [pnpm](#pnpm)
+
 # JavaScript
 ### Events in js
 
@@ -71,6 +73,27 @@ There are two types of paths when `import {SomeClass} from "some_path_is_put_her
 ### A test framework testing for modern web apps.
 📫 link: [Playwright](https://playwright.dev/)
 
+#### demo
+
+[The Example Test](https://playwright.dev/docs/next/writing-tests)
+
+#### Run/Debug test and see reports
+
+[Running Tests](https://playwright.dev/docs/next/running-tests)
+
+Run all tests, a single test file, a set files, etc. Debug and show reports.
+
+
+
+
+#### config file: playwright.config.js / playwright.config.ts
+
+[Configuration](https://playwright.dev/docs/next/test-configuration)
+
+#### run test with GitHub Actions
+
+[GitHub Actions](https://playwright.dev/docs/next/ci-intro#github-actions)
+
 # npm
 
 ### Manage packages using npm
@@ -106,3 +129,33 @@ var other = _.concat(array, 2, [3], [[4]]);
 
 console.log(other);
 ```
+
+### install package using npm install
+
+📫 link: [npm-install](https://docs.npmjs.com/cli/v8/commands/npm-install)
+
+`npm install some_package` will install the package locally, by default with `latest` tag, creating a node_modules folder, a package.json file and a package-lock.json file. See [What is the role of the package-lock.json?](https://stackoverflow.com/questions/44297803/what-is-the-role-of-the-package-lock-json).</br>
+
+`npm install` in a folder with package.json, but without package-lock.json, will install all the dependencies specified in package.json, with satisfied version. </br>
+
+`npm install` in a folder with package.json, package-lock.json will install all the dependencies in package.json, but with version specified in package-lock.json.</br>
+
+To install packages globally, refer to [Downloading and installing packages globally](https://docs.npmjs.com/downloading-and-installing-packages-globally)</br>
+
+To install with specified version, tag, url, etc, refer to [npm-install](https://docs.npmjs.com/cli/v8/commands/npm-install). </br>
+
+What is npm tag: [How to use: npm tags](https://dev.to/andywer/how-to-use-npm-tags-4lla)
+
+
+
+### semantic version number in package.json
+
+📫 link: [npm-install](https://docs.npmjs.com/about-semantic-versioning)
+
+# pnpm
+
+### Difference between pnpm and npm
+
+📫 link: [npm-install](https://pnpm.io/motivation)
+
+I haven't seen other difference between npm and pnpm, yet, and will take pnpm as npm by far.
