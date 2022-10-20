@@ -1,12 +1,14 @@
 This repository records good articles I have read, with a few thought. Unorganized links are recorded at [Web pages I have read](./links)
 
-- [JavaScript articles](#JavaScript)
+- [JavaScript](#JavaScript)
 
-- [TypeScript articles](#TypeScript)
+- [TypeScript](#TypeScript)
 
 - [npm](#npm)
 
 - [pnpm](#pnpm)
+
+- [About This page](#About-This-page)
 
 # JavaScript
 ### Events in js
@@ -15,7 +17,7 @@ This repository records good articles I have read, with a few thought. Unorganiz
 
 Event bubbling and capture is worth reading.
 
-[Event](https://developer.mozilla.org/en-US/docs/Web/API/Event) interface represents an event which takes place in the DOM. There are [a list of interfaces](https://developer.mozilla.org/en-US/docs/Web/API/Event#interfaces_based_on_event) which are based on the main Event interface. Each of those interface may support different event. Reference document to check.
+📫 link: [Event](https://developer.mozilla.org/en-US/docs/Web/API/Event) interface represents an event which takes place in the DOM. There are [a list of interfaces](https://developer.mozilla.org/en-US/docs/Web/API/Event#interfaces_based_on_event) which are based on the main Event interface. Each of those interface may support different event. Reference document to check.
 
 ### Asynchronous JavaScript
 
@@ -23,7 +25,7 @@ Event bubbling and capture is worth reading.
 
 Introduce callback, promise and async style asynchronous programming. To find out if a function is asynchronous, such as [MediaDevices.getUserMedia()](https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia), check whether it returns a promise.</br>Constructor, static method of [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) is worth reading. It explained when a promise is constructed, which part of code will be executed immediately, what state promise have, what information these states indicate and how states are transferred by calling onfulfilled function(the first parameter in function of the promise constructor) and on onRejected (the second parameter in function of the promise constructor), which impacts when Promise.prototype.then() and Promise.prototype.catch() are executed in the future.</br>[Return value](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/then#return_value) of Promise.prototype.then() is worth reading.</br>
 
-[Difference between Promise.any(), and Promise.race()](https://stackoverflow.com/questions/61732049/what-is-the-difference-between-promise-any-and-promise-race)
+📫 link: [Difference between Promise.any(), and Promise.race()](https://stackoverflow.com/questions/61732049/what-is-the-difference-between-promise-any-and-promise-race)
 
 ### fetch(), a more powerful api than XMLHttpRequest()
 
@@ -75,24 +77,21 @@ There are two types of paths when `import {SomeClass} from "some_path_is_put_her
 
 #### demo
 
-[The Example Test](https://playwright.dev/docs/next/writing-tests)
+📫 link: [The Example Test](https://playwright.dev/docs/next/writing-tests)
 
 #### Run/Debug test and see reports
 
-[Running Tests](https://playwright.dev/docs/next/running-tests)
+📫 link: [Running Tests](https://playwright.dev/docs/next/running-tests)
 
 Run all tests, a single test file, a set files, etc. Debug and show reports.
 
-
-
-
 #### config file: playwright.config.js / playwright.config.ts
 
-[Configuration](https://playwright.dev/docs/next/test-configuration)
+📫 link: [Configuration](https://playwright.dev/docs/next/test-configuration)
 
 #### run test with GitHub Actions
 
-[GitHub Actions](https://playwright.dev/docs/next/ci-intro#github-actions)
+📫 link: [GitHub Actions](https://playwright.dev/docs/next/ci-intro#github-actions)
 
 # npm
 
@@ -159,3 +158,12 @@ What is npm tag: [How to use: npm tags](https://dev.to/andywer/how-to-use-npm-ta
 📫 link: [npm-install](https://pnpm.io/motivation)
 
 I haven't seen other difference between npm and pnpm, yet, and will take pnpm as npm by far.
+
+# About This page
+
+## How do I batch add "📫 link: " symbols: 
+
+1. Search with `^\[.*\]`, to find all lines start with a [xxx].</br>
+2. Select all occurrences</br>
+3. Enter `Home` to move cursor to the line start.</br>
+4. Paste "📫 link: ".
