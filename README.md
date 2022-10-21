@@ -182,7 +182,7 @@ I haven't seen other difference between npm and pnpm, yet, and will take pnpm as
 
 📫 link: [Build better sites faster with Chrome DevTools](https://youtu.be/VYyQv0CSZOE)
 
-I found many handy tools I haven't known, getting me interested in the remaining contents. Elements, Console, Sources, Network, Application topic on the left panel are all quite useful. Each panel has a reference page, displaying detailed(but not complete) summary.
+I found many handy tools I haven't known, getting me interested in the remaining contents. Elements, Console, Sources, Network, Application topic on the left panel are all quite useful. Each panel has a reference page, displaying detailed (but not complete) summary.
 
 📫 link: [CSS features reference](https://developer.chrome.com/docs/devtools/css/reference/)
 
