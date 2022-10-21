@@ -10,6 +10,8 @@ This repository records good articles I have read, with a few thought. Unorganiz
 
 - [pnpm](#pnpm)
 
+- [DevTools](#DevTools)
+
 # About This page
 
 ## Emojis and Agreement of their usage
@@ -173,3 +175,45 @@ What is npm tag: [How to use: npm tags](https://dev.to/andywer/how-to-use-npm-ta
 📫 link: [npm-install](https://pnpm.io/motivation)
 
 I haven't seen other difference between npm and pnpm, yet, and will take pnpm as npm by far. ⁉️
+
+# DevTools
+
+### Overview of DevTools
+
+📫 link: [Build better sites faster with Chrome DevTools](https://youtu.be/VYyQv0CSZOE)
+
+I found many handy tools I haven't known, getting me interested in the remaining contents. Elements, Console, Sources, Network, Application topic on the left panel are all quite useful. Each panel has a reference page, displaying detailed(but not complete) summary.
+
+📫 link: [CSS features reference](https://developer.chrome.com/docs/devtools/css/reference/)
+
+📫 link: [Console API reference](https://developer.chrome.com/docs/devtools/console/api/)
+
+📫 link: [JavaScript debugging reference](https://developer.chrome.com/docs/devtools/javascript/reference/)
+
+📫 link: [Network features reference](https://developer.chrome.com/docs/devtools/network/reference/)
+
+### Stop code with Breakpoints in various ways
+
+📫 link: [Pause your code with breakpoints](https://developer.chrome.com/docs/devtools/javascript/breakpoints/)
+
+Pause on one line, conditioned line, DOM, XHR, Event listener, Exception, Function
+
+### Make code don't stop at useless position.
+
+📫 link: [Ignore a script or pattern of scripts](https://developer.chrome.com/docs/devtools/javascript/reference/#editor-ignore-list)
+
+Some codes are generated automatically from framework, it's not expected for code to stop at those positions. For Example, after configuring browser to pause on click->onclick event, then hit a button. If the code doesn't stop at the handler function we have written, then right click the current line of code and add to the ignore list, after which the code won't stop here. Ignore list can be configured at Settings > Ignore List > Automatically add known third-party scripts to ignore list.
+
+### Very useful columns of Network panel
+
+📫 link: [Show more information](https://developer.chrome.com/docs/devtools/network/#information)
+
+Method, Domain, Remote Address, Cookies don't show by default, but are very useful. 
+
+### Very useful Filter tools in network panel
+
+- Regex can be used as `/some_regex_pattern/` to match characters in request url.
+
+📫 link: [Filter requests by properties](https://developer.chrome.com/docs/devtools/network/reference/#filter-by-property)
+
+- There are also many properties can be used to filter requests, for example, cookie-domain, method, url, etc.
