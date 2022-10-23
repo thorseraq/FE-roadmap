@@ -196,7 +196,7 @@ Except for Executable files installed globally, files install locally located at
 
 ### Difference between pnpm and npm
 
-📫 link: [npm-install](https://pnpm.io/motivation)
+📫 link: [Motivation](https://pnpm.io/motivation)
 
 I haven't seen other difference between npm and pnpm, yet, and will take pnpm as npm by far. ⁉️
 
