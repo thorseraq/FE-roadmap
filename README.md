@@ -12,6 +12,8 @@ This repository records good articles I have read, with a few thought. Unorganiz
 
 - [DevTools](#DevTools)
 
+- [React](#React)
+
 # About This page
 
 ## Emojis and Agreement of their usage
@@ -165,10 +167,30 @@ To install with specified version, tag, url, etc, refer to [npm-install](https:/
 What is npm tag: [How to use: npm tags](https://dev.to/andywer/how-to-use-npm-tags-4lla)
 
 
-
 ### semantic version number in package.json
 
 📫 link: [npm-install](https://docs.npmjs.com/about-semantic-versioning)
+
+
+### Executable files in node_modules/.bin folder
+
+[What is the purpose of .bin folder in node_modules?](https://stackoverflow.com/questions/25306168/what-is-the-purpose-of-bin-folder-in-node-modules)
+
+Except for Executable files installed globally, files install locally located at node_modules/.bin can also be executed directly. Here is an example in react's package.json file.
+
+```json
+{
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  }
+}
+```
+
+[What exactly is the 'react-scripts start' command?](https://stackoverflow.com/questions/50722133/what-exactly-is-the-react-scripts-start-command)
+
 
 # pnpm
 
@@ -219,3 +241,18 @@ Method, Domain, Remote Address, Cookies don't show by default, but are very usef
 📫 link: [Filter requests by properties](https://developer.chrome.com/docs/devtools/network/reference/#filter-by-property)
 
 - There are also many properties can be used to filter requests, for example, cookie-domain, method, url, etc.
+
+# React
+
+### First react Demo project
+
+[Adding TypeScript](https://create-react-app.dev/docs/adding-typescript/)
+
+create react with JavaScript using `npx create-react-app` or with TypeScript using `npx create-react-app my-app --template typescript`.
+
+### Concepts of React
+
+[React Doc](https://reactjs.org/docs/hello-world.html)
+
+This doc explains with a JS version, copy and paste directly into TS react project will cause some errors, but are common errors already solved and discussed in stackOverflow. Class, Interface structure, methods, properties inherited or implemented by current class can be checked in TS project.
+
