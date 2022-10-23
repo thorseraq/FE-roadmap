@@ -250,7 +250,7 @@ Method, Domain, Remote Address, Cookies don't show by default, but are very usef
 
 Create react with JavaScript using `npx create-react-app`.</br>
 
-Create react with JavaScript using `npx create-react-app my-app --template typescript`.
+Create react with TavaScript using `npx create-react-app my-app --template typescript`.
 
 ### Concepts of React
 
