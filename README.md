@@ -66,6 +66,10 @@ Web storage store key-value pairs, where key and value are both strings. Indexed
 
 📫 link: [ES2015+ cheatsheet](https://devhints.io/es6)
 
+📫 link: [Learn ES2015](https://babeljs.io/docs/en/learn)
+
+Explanations are Very short and concise, with examples. Worth reading.
+
 # TypeScript
 
 ### Indicate a directory as a TypeScript project.
