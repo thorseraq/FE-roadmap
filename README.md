@@ -14,6 +14,10 @@ This repository records good articles I have read, with a few thought. Unorganiz
 
 - [React](#React)
 
+- [GitHub](#GitHub)
+    - [GitHub Release](#GitHub-Release)
+    - [GitHub Actions](#GitHub-Actions)
+
 # About This page
 
 ## Emojis and Agreement of their usage
@@ -175,6 +179,10 @@ What is npm tag: [How to use: npm tags](https://dev.to/andywer/how-to-use-npm-ta
 
 📫 link: [npm-install](https://docs.npmjs.com/about-semantic-versioning)
 
+📫 link: [Semantic Versioning 2.0.0](https://semver.org/)
+
+Official document of semantic version
+
 
 ### Executable files in node_modules/.bin folder
 
@@ -261,4 +269,30 @@ Create react with TypeScript using `npx create-react-app my-app --template types
 📫 link: [React Doc](https://reactjs.org/docs/hello-world.html)
 
 This doc explains with a JS version, copy and paste directly into TS react project will cause some errors, but are common errors already solved and discussed in stackOverflow. Class, Interface structure, methods, properties inherited or implemented by current class can be checked in TS project.
+
+# GitHub
+
+# GitHub Release
+
+📫 link: [About releases](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases)
+
+# GitHub Actions
+
+📫 link: [Understanding GitHub Actions](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions)
+
+I created a demo using examples given in this article. This demo can be used to further explore new features of GitHub Actions.
+
+📫 link: [Essential features of GitHub Actions](https://docs.github.com/en/actions/learn-github-actions/essential-features-of-github-actions)
+
+📫 link: [Expressions](https://docs.github.com/en/actions/learn-github-actions/expressions)
+
+📫 link: [Contexts](https://docs.github.com/en/actions/learn-github-actions/contexts)
+
+📫 link: [Environment variables](https://docs.github.com/en/actions/learn-github-actions/environment-variables)
+
+Four articles above is enough to establish an overall understanding of GitHub Actions. I will refer to the following articles when needed for More details (Actually they're worth reading as well but can be skipped, and may be learned elsewhere).
+
+📫 link: [Workflow syntax for GitHub Actions](https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions
+
+
 
