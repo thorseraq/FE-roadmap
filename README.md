@@ -1,4 +1,4 @@
-This repository records good articles I have read, with a few thought. Unorganized links are recorded at [Web pages I have read](./links)
+This repository records good articles I have read, with a few thought.
 
 - [About This page](#About-This-page)
 
