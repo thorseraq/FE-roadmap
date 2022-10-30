@@ -270,34 +270,32 @@ Create react with TypeScript using `npx create-react-app my-app --template types
 
 This doc explains with a JS version, copy and paste directly into TS react project will cause some errors, but are common errors already solved and discussed in stackOverflow. Class, Interface structure, methods, properties inherited or implemented by current class can be checked in TS project.
 
-### Does render get called any time "setState" is called?
+### Capture event 
 
-📫 link: [ReactJS - Does render get called any time "setState" is called?](https://stackoverflow.com/questions/24718709/reactjs-does-render-get-called-any-time-setstate-is-called)
+📫 link: [Lifting State Up](https://reactjs.org/docs/lifting-state-up.html)
 
-### An example of invoke method of parent component when component value of child component changes
-
-[Lifting State Up](https://reactjs.org/docs/lifting-state-up.html)
+Suppose component A is the parent of Component B. This article explained when an event occurs in B,  how to trigger a setState call in A.
 
 ### Children property of JSX Element
 
-[Composition vs Inheritance](https://reactjs.org/docs/composition-vs-inheritance.html)
+📫 link: [Composition vs Inheritance](https://reactjs.org/docs/composition-vs-inheritance.html)
 
 
 ### When does useEffect execute cleans up function
 
-[Using the Effect](https://reactjs.org/docs/hooks-effect.html)
+📫 link: [Using the Effect](https://reactjs.org/docs/hooks-effect.html)
 
 When exactly does React clean up an effect? React performs the cleanup when the component unmounts. However, as we learned earlier, **effects run for every render and not just once. This is why React also cleans up effects from the previous render before running the effects next time.** 
 
 ### When will render be called
 
-[ReactJS - Does render get called any time "setState" is called?](https://stackoverflow.com/questions/24718709/reactjs-does-render-get-called-any-time-setstate-is-called)
+📫 link: [ReactJS - Does render get called any time "setState" is called?](https://stackoverflow.com/questions/24718709/reactjs-does-render-get-called-any-time-setstate-is-called)
 
 React re-render all components and sub-components every time setState is called by default. It relies on return value of shouldComponentUpdate(object nextProps, object nextState),.
 
 ### When will componentDidUpdate be called
 
-[Does componentDidUpdate run after all children have been updated?](https://stackoverflow.com/questions/42916045/does-componentdidupdate-run-after-all-children-have-been-updated)
+📫 link: [Does componentDidUpdate run after all children have been updated?](https://stackoverflow.com/questions/42916045/does-componentdidupdate-run-after-all-children-have-been-updated)
 
 The componentDidUpdate method is called after the render method of the component is done executing.
 
