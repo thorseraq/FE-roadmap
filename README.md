@@ -99,8 +99,6 @@ TypeScript implements an ECMAScript 2015(ES6) style module-loading systems, and 
 
 There are two types of paths when `import {SomeClass} from "some_path_is_put_here"`: Relative path and Non-relative path. When resolving there two kinds of paths, two strategies are used, Classic(for backwards compatibility) and Node(recommended). These two are similar. Very detailed examples are showed in above article. [baseUrl](https://www.typescriptlang.org/tsconfig#baseUrl) and [paths](https://www.typescriptlang.org/tsconfig#paths) can be configured to impact non-relative path resolving. Note once path is configured to imply path mapping, non-relative resolving rule will be breaked. Examples in [Path-mapping](https://www.typescriptlang.org/docs/handbook/module-resolution.html#path-mapping) shows this.
 
-
-
 ### A test framework testing for modern web apps.
 📫 link: [Playwright](https://playwright.dev/)
 
@@ -121,6 +119,14 @@ Run all tests, a single test file, a set files, etc. Debug and show reports.
 #### run test with GitHub Actions
 
 📫 link: [GitHub Actions](https://playwright.dev/docs/next/ci-intro#github-actions)
+
+### A CLI tool to run TypeScript file directly
+
+(ts-node)[https://github.com/TypeStrong/ts-node]
+
+Ts-node can run .ts file directly, or work as interactive REPL interpreter. Recommend to install ts-node globally with
+1. `npm install -g typescript`
+2. `npm install -g ts-node`.
 
 # npm
 
